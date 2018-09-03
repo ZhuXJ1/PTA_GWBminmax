@@ -4,7 +4,7 @@ This reporsitory includes codes for the following paper "The minimum and maximum
 
 1. AyrNaivefun.m
 
-This is the code to use when you have a new SMBBH candidate and want to know its implication for the GWB. rate and Anaive will tell you if it would imply a creazily low or high merger rate or Ayr.
+This is the code to use when you have a new SMBBH candidate and want to quickly know its implication for the GWB. rate and Anaive will tell you if it would imply a creazily low or high merger rate or Ayr.
 
 
 2. AyrLowerfun.m
