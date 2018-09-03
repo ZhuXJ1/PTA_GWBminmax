@@ -2,7 +2,7 @@ function [AyrV,pdf,AyrM,AyrL,AyrU]=CompAmaxfun(m0,mf0,mfe,Nsim)
 % Input: BH mass in log10 scale (m0), BHMF (mf0)
 % uncertainty in BHMF (mfe), number of simulations (Nsim)
 % Output: coordinates in Ayr^max (AyrV), the pdf of Ayr^max 
-% and median and upper bound (AyrL, AyrU)
+% and median (AyrM) and 1-sigma lower/upper bound (AyrL, AyrU)
 
 Aref=1.7228e-21; % constant in Eq. 10 of the paper
 Amat=zeros(Nsim,1);
