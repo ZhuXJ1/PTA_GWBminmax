@@ -46,8 +46,8 @@ else
     js1=integral(dedt,0,e0);
     Tc=(15/304)*(C^5).*((G.*M_c).^(-5/3)).*(w0.^(-8/3)).*(chi0.^4).*js1/Gyr;
 end
-tj=interp1(zv,dVz,zbbh,'spline');
-rate=1./tj./Tc;
+tj=interp1(zv,dVz,zbbh,'spline'); % comoving volume, which is actually equivalent to (4\pi d^3)/3
+rate=1./tj./Tc; % Eq. 12 in the paper
 
 hc0=4.8e-16.*((Mc).^(5/6));
 % Eq. 6 in the paper, 4.8e-16 from Section2.m
