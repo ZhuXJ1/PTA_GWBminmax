@@ -4,7 +4,7 @@ function [AyrV,pdf,AyrM,AyrL,AyrU]=CompAmaxfun(m0,mf0,mfe,Nsim)
 % Output: coordinates in Ayr^max (AyrV), the pdf of Ayr^max 
 % and median (AyrM) and 1-sigma lower/upper bound (AyrL, AyrU)
 
-Aref=1.7228e-21; % constant in Eq. 10 of the paper
+Aref=1.7228e-21; % constant in Eq. 10 of the paper, calculated in Section2.m
 Amat=zeros(Nsim,1);
 sjs=randn(1,Nsim);
 %
