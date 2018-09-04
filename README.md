@@ -1,6 +1,6 @@
 # PTA_GWBminmax
 
-This reporsitory includes codes for the following paper "The minimum and maximum gravitational-wave background from supermassive binary black holes" (https://arxiv.org/abs/1806.02346) by Zhu, Cui and Thrane 2018. It deals with a single number Ayr, which is the signal amplitude of the gravitational wave background from supermassive binary black holes (GWB) at a reference frequency of 1 per year.
+This reporsitory includes codes for the following paper "The minimum and maximum gravitational-wave background from supermassive binary black holes" (https://arxiv.org/abs/1806.02346) by Zhu, Cui and Thrane 2018. It deals with a single number Ayr, which is the signal amplitude of the (highly-sought) gravitational wave background from supermassive binary black holes (GWB) at a reference frequency of 1 per year. 
 
 1. AyrNaivefun.m
 
@@ -17,7 +17,7 @@ This does things more properly and outputs the 95% lower limit and median estima
 It includes some examples to use AyrLowerfun.m and AyrNaivefun.m and reproduces Table 1 and Figure 2 in the paper.
 
 
-4. TheMaximum.m
+4. TheMaximum.m & CompAmaxfun.m
 
 This piece of code reproduces results in Section 3 of the paper. It takes a black hole mass function and tells you the maximum gravitational wave background that can be expected given the constraints on the number density of supermassive black holes in the local universe.
 
